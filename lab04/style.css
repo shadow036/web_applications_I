@@ -1,0 +1,24 @@
+#navigation_bar{
+    background-color: blue;
+    color: white;
+}
+#left_sidebar{
+    background-color: whitesmoke;
+}
+.favorite{
+    color:red;
+}
+#add_film_button{
+    background-color: blue;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    color:white;
+}
+.checked{
+    color:orange;
+}
+.highlighted_button{
+    background-color: green;
+    color: white;
+}

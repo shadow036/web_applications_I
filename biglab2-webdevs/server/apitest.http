@@ -1,0 +1,81 @@
+GET http://localhost:3001/api/v1/films
+
+###
+
+GET http://localhost:3001/api/v1/films/filters/Favorites/1
+
+###
+
+GET http://localhost:3001/api/v1/films/filters/All
+
+###
+
+GET http://localhost:3001/api/v1/films/filters/Favorites
+
+###
+
+GET http://localhost:3001/api/v1/films/filters/Best_Rated
+
+###
+
+GET http://localhost:3001/api/v1/films/filters/Unseen
+
+
+###
+
+GET http://localhost:3001/api/v1/films/6
+
+###
+
+GET http://localhost:3001/api/v1/films/2
+
+###
+
+GET http://localhost:3001/api/v1/films/3
+
+###
+
+GET http://localhost:3001/api/v1/films/4
+
+###
+
+GET http://localhost:3001/api/v1/films/5
+
+###
+
+POST http://localhost:3001/api/v1/films
+Content-Type: application/json
+
+{
+    "title": "Test Film",
+    "favorite": 0,
+    "watchdate": "2022-02-13",
+    "rating": "5",
+    "user": 1
+}
+
+###
+
+PUT http://localhost:3001/api/v1/films/update/1
+Content-Type: application/json
+
+{
+    "title": "Pulp Fiction 3",
+    "favorite": 1,
+    "watchdate": "2022-04-12",
+    "rating": 3,
+    "user": 1
+}
+
+###
+
+PUT http://localhost:3001/api/v1/films/mark/5
+Content-Type: application/json
+
+{
+    "value": 1
+}
+
+###
+
+DELETE http://localhost:3001/api/v1/films/1
