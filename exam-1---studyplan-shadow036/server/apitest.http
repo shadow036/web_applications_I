@@ -1,0 +1,11 @@
+GET http://localhost:3001/api/v1/courses
+
+###
+
+GET http://localhost:3001/api/v1/study_plan/s000005
+
+###
+
+
+
+###
